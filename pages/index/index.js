@@ -77,10 +77,10 @@ Page({
     wx.showToast({
       title:"页面加载完毕..",
       success(){
-        wx.pageScrollTo({
-          scrollTop:0,
-          duration:5000
-        })
+        // wx.pageScrollTo({
+        //   scrollTop:0,
+        //   duration:5000
+        // })
       }
     })
   }
