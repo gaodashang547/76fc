@@ -1,0 +1,77 @@
+/**index.wxss**/
+swiper{
+  height: 320rpx;
+}
+swiper image{
+  display: block;
+  width: 750rpx;
+  height: 320rpx;
+}
+.txt{
+  padding:30rpx 20rpx;
+}
+.txt text{
+  font-size: 28rpx;
+  color: #3C3C3C;
+  font-weight: bolder;
+}
+.banner {
+  position: relative;
+  margin-bottom: 10rpx;
+}
+.pic image{
+  display: block;
+  width: 750rpx;
+  height: 320rpx;
+}
+.text .crazy{
+  color: #3C3C3C;
+  font-size: 30rpx;
+  padding-left: 20rpx;
+  width: 100rpx;
+}
+.text .free{
+  color:  #FE6249;
+  font-size: 30rpx;
+  padding-left: 20rpx;
+}
+.foot text{
+  color:  #B4B4B4;
+  font-size: 22rpx;
+  padding-left: 20rpx;
+}
+.footer image{
+  display: block;
+  width: 136rpx;
+  height: 58rpx;
+}
+.footer {
+  position: absolute;
+  left: 20rpx;
+  top: 0;
+}
+.fot{
+  position: absolute;
+  left: 50rpx;
+  top: 0;
+}
+.fot text{
+  color: #FFFFFF;
+  font-size: 24rpx;
+}
+.di{
+  width: 50rpx;
+  height: 50rpx;
+  border: 1rpx solod red;
+  background-color: pink;
+  border-radius: 50%;
+  /* text-align: center; */
+  position: fixed;
+  right: 0;
+  bottom: 40rpx; 
+}
+.di text{
+  color: #3C3C3C;
+  font-size: 24rpx;
+  padding-bottom: 20rpx;
+}

@@ -1,0 +1,108 @@
+<!-- index.wxml -->
+<!-- 这是轮播图数据 -->
+<view class="top">
+    <swiper indicator-dots autoplay circular indicator-active-color="#fff" indicator-color="rgba(255,255,255,0.6)">
+        <swiper-item>
+            <image src="https://gaodashang547.github.io/75qi/uploads/slide_1.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="https://gaodashang547.github.io/75qi/uploads/slide_2.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="https://gaodashang547.github.io/75qi/uploads/slide_3.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="https://gaodashang547.github.io/75qi/uploads/slide_4.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+            <image  src="https://gaodashang547.github.io/75qi/uploads/slide_5.jpg"></image>
+        </swiper-item>
+    </swiper>
+</view>
+<!-- 活动内容展示 -->
+<!-- 活动标题 -->
+<view class="txt">
+    <text>乐园活动</text>
+</view>
+<!-- 内容展示 -->
+<view>
+    <view class="banner">
+        <view class="pic" bind:tap="open">
+            <image  src="https://gaodashang547.github.io/75qi/uploads/item_1.png"></image>
+        </view>
+        <view class="text">
+            <text class="crazy">疯狂红包 不一样的撕名牌 大型家庭亲子户外活动</text>
+            <text class="free">免费</text>
+        </view>
+        <view class="foot">
+            <text>200人已报名</text>
+            <text>本周六开始</text>
+        </view>
+        <view class="footer">
+            <image src="https://gaodashang547.github.io/75qi/images/status_active.png"></image>
+        </view>
+        <view class="fot">
+            <text>进行中</text>
+        </view>
+    </view>
+    <view class="banner">
+        <view class="pic">
+            <image src="https://gaodashang547.github.io/75qi/uploads/item_2.png"></image>
+        </view>
+        <view class="text">
+            <text class="crazy">疯狂红包 不一样的撕名牌 大型家庭亲子户外活动</text>
+            <text class="free">免费</text>
+        </view>
+        <view class="foot">
+            <text>200人已报名</text>
+            <text>本周六开始</text>
+        </view>
+        <view class="footer">
+            <image src="https://gaodashang547.github.io/75qi/images/status_default.png"></image>
+        </view>
+        <view class="fot">
+            <text>已截止</text>
+        </view>
+    </view>
+    <view class="banner">
+        <view class="pic">
+            <image src="https://gaodashang547.github.io/75qi/uploads/item_3.png"></image>
+        </view>
+        <view class="text">
+            <text class="crazy">疯狂红包 不一样的撕名牌 大型家庭亲子户外活动</text>
+            <text class="free">免费</text>
+        </view>
+        <view class="foot">
+            <text>200人已报名</text>
+            <text>本周六开始</text>
+        </view>
+        <view class="footer">
+            <image src="https://gaodashang547.github.io/75qi/images/status_default.png"></image>
+        </view>
+        <view class="fot">
+            <text>已截止</text>
+        </view>
+    </view>
+    <view class="banner">
+        <view class="pic">
+            <image src="https://gaodashang547.github.io/75qi/uploads/item_4.png"></image>
+        </view>
+        <view class="text">
+            <text class="crazy">疯狂红包 不一样的撕名牌 大型家庭亲子户外活动</text>
+            <text class="free">免费</text>
+        </view>
+        <view class="foot">
+            <text>200人已报名</text>
+            <text>本周六开始</text>
+        </view>
+        <view class="footer">
+            <image src="https://gaodashang547.github.io/75qi/images/status_default.png"></image>
+        </view>
+        <view class="fot">
+            <text>已截止</text>
+        </view>
+    </view>
+    <view class="di" bind:tap="dick" hidden="{{scrollTop<250}}">
+       <text>置顶</text>
+    </view>
+</view>
